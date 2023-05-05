@@ -1,0 +1,80 @@
+package com.cims;
+
+import java.util.List;
+
+public class Crime {
+
+	private String date;
+    private String place;
+    private String description;
+    private List<String> victims;
+    private String details;
+    private List<String> suspected;
+
+    public Crime(String date, String place, String description, List<String> victims, String details, List<String> suspected) {
+        this.date = date;
+        this.place = place;
+        this.description = description;
+        this.victims = victims;
+        this.details = details;
+        this.suspected = suspected;
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
+    }
+
+    public String getPlace() {
+        return place;
+    }
+
+    public void setPlace(String place) {
+        this.place = place;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public List<String> getVictims() {
+        return victims;
+    }
+
+    public void setVictims(List<String> victims) {
+        this.victims = victims;
+    }
+
+    public String getDetails() {
+        return details;
+    }
+
+    public void setDetails(String details) {
+        this.details = details;
+    }
+
+    public List<String> getSuspected() {
+        return suspected;
+    }
+
+    public void setSuspected(List<String> suspected) {
+        this.suspected = suspected;
+    }
+
+	public boolean isSolved() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	
+}
+
+	
+	
+
