@@ -1,0 +1,55 @@
+package com.cims;
+
+public class Suspect {
+
+	    private String name;
+	    private int age;
+	    private String gender;
+	    private String address;
+	    private String identifyingMark;
+	    private String arrestArea;
+	    private Crime attachedCrime;
+
+	    public Suspect(String name, int age, String gender, String address, String identifyingMark, String arrestArea) {
+	        this.name = name;
+	        this.age = age;
+	        this.gender = gender;
+	        this.address = address;
+	        this.identifyingMark = identifyingMark;
+	        this.arrestArea = arrestArea;
+	    }
+
+	    public String getName() {
+	        return name;
+	    }
+
+	    public int getAge() {
+	        return age;
+	    }
+
+	    public String getGender() {
+	        return gender;
+	    }
+
+	    public String getAddress() {
+	        return address;
+	    }
+
+	    public String getIdentifyingMark() {
+	        return identifyingMark;
+	    }
+
+	    public String getArrestArea() {
+	        return arrestArea;
+	    }
+
+	    public Crime getAttachedCrime() {
+	        return attachedCrime;
+	    }
+
+	    public void setAttachedCrime(Crime attachedCrime) {
+	        this.attachedCrime = attachedCrime;
+	    }
+	}
+	
+
